@@ -6,7 +6,7 @@ import TrackingMap from './components/TrackingMap'
 import './App.css'
 
 const LOCATION_PATH = 'ubicacion'
-const WRITE_INTERVAL_MS = 2000
+const WRITE_INTERVAL_MS = 1000
 
 function formatTime(value) {
   if (!value) return '--'
